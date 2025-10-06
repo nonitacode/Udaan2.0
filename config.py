@@ -29,6 +29,9 @@ OWNER_ID = int(getenv("OWNER_ID", "8150875959"))
 
 LOG = int(getenv("LOG", True))
 
+API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
+API_KEY = getenv("API_KEY", 'NxGBNexGenBotsca027a') # youtube song api ke 
+
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
