@@ -149,7 +149,7 @@ class Userbot(Client):
             await self.four.start()
             try:
                 await self.four.join_chat("KING_BOT_UPDATE")
-                awai tself.four.join_chat("BRANDED_PAID_CC")
+                await self.four.join_chat("BRANDED_PAID_CC")
                 await self.four.join_chat("BRANDED_WORLD")
                 await self.four.join_chat("ABOUT_BRANDEDKING")
             except:
